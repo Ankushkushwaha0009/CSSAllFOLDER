@@ -1,0 +1,38 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		box sizing in css
+	</title>  
+
+    
+    <style>
+        #di1{
+          background-color: blueviolet;
+          width:600px;
+          height: 150px;
+        }
+
+        #di2{
+          background-color: chocolate;
+          width:600px;
+          height: 150px;
+          padding: 50px;
+          border:10px solid green;
+          box-sizing: border-box; 
+          /*by default content-box; */  /*height and width assign kar rahe ho to content ko mil rahe ho*/
+
+        }
+    
+    </style>
+
+</head>
+
+<body>
+    <div id="di1">div 1</div>
+    <hr>
+    <div id="di2">div 2</div>
+
+</body>
+</html>

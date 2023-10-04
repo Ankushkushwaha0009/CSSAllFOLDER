@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body bgcolor="#887780">
+
+
+  <form>
+    	<label>First Name:</label><br>
+      <input type="text" value="Ankush" name="lname" id="lname"><br>
+      <label>Last Name:</label><br>
+      <input type="text" name="lname" value="kushwaha" id="lname"><br>
+      <label>Middle Name:</label><br>
+      <input type="text" name="mname" value="Prabhunath" id="lname"><br>
+      <!-- select ur gender -->
+      <!-- <input type="radio" name="gender" value="Male"><br> -->
+      <h3><p style="color:lime">Select your Gender</p></h3><br>
+      <label>Male</label><br>
+      <input type="radio" name="gender" value="Male"><br>
+      <!-- <input type="radio" name="gender" value="FeMale"><br> -->
+      <label>FeMale</label><br>
+      <input type="radio" name="gender" value="FeMale"><br>
+
+      <!-- <input type="radio" name="gender" value="other"> -->
+      <label>Other</label><br>
+      <input type="radio" name="gender" value="other"><br>
+
+      <h3><p style="color:red ">Select your jobs</p></h3><br>
+      <label>Goverment</label><br>
+      <input type="checkbox" name="Jobs" value="Goverment"><br>
+      <label>Private</label><br>
+      <input type="checkbox" name="Jobs" value="Private"><br>
+      <label>None</label><br>
+      <input type="checkbox" name="Jobs" value="None"><br>
+
+        <h3><p style="color:red ">Select your car</p><br>
+
+          <select size=3 multiple >
+            <option value="jaguar">Jaguar</option>
+            <option value="Bmw">bmw</option>
+            <option value="Benz">Benz</option>
+            <option value="Bmw11" selected>bmw11</option>
+            <option value="Benz233">Benz233</option>
+          </select>
+
+     <br><br>
+     <textarea rows="5" cols="10">
+        Welcome to great learning !!
+     </textarea>
+     <br><br>
+
+     <button style="color:red">
+    	clear Everything......
+    </button>
+
+    <br><br>
+
+    <fieldset>
+
+      <legend>personal Information</legend>
+
+      <label>First Name:</label><br>
+      <input type="text" id="fname" name="fname" value="Ankush"><br>
+      <label>Last Name:</label><br>
+      <input type="text" id="lname" name="lname" value="kushwaha">
+
+    </fieldset>
+
+
+    <br><br>
+    <input list="cars">
+ <datalist id="cars">
+    <option value="Audi">Audi</option>
+    <option value="lambo">Lambo</option>
+    <option value="Bmw" selected>Bmw</option>   <!-- <to select the bmw > -->
+ </datalist>
+
+   </form>
+
+</body>
+</html>
